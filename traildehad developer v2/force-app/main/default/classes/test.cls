@@ -7,6 +7,6 @@ public with sharing class test {
         {
             strOutput = strWellcome + i;
         }        
-        system.debug('\nGood !!!! @@@' + strOutput );
+        system.debug('\n wellcome !!!! @@@' + strOutput );
     }
 }
