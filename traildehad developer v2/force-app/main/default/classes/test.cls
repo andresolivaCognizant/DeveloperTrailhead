@@ -1,6 +1,12 @@
 public with sharing class test {
     public test() {
-        SYSTEM.DEBUG('Hello trailbalser, store in github');
-        integer intCount = 2;        
+        string strWellcome= 'Hello trailbalser, store in github';
+        integer intCount = 2;
+        string strOutput;
+        for(integer i=1; i<8; i++ )
+        {
+            strOutput = strWellcome + i;
+        }        
+        system.debug('\n wellcome @@@' + strOutput );
     }
 }
